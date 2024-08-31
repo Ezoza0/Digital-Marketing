@@ -1,0 +1,103 @@
+.best {
+    padding-bottom: 138px;
+}
+
+.best-top {
+    max-width: 651px;
+    height: 488px;
+    background-image: url("../../images/icons/team-work.svg");
+    background-position: top -25px center;
+}
+
+.best-bottom {
+    max-width: 536px;
+}
+
+.best-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 43px;
+}
+
+.best-text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #515151;
+    margin: 0;
+    margin-bottom: 56px;
+}
+
+.best-text2 {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #515151;
+    margin: 0;
+    margin-bottom: 46px;
+}
+
+.best-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 13px 44px;
+    background-color: #DC7000;
+}
+
+@media (max-width: 992px) {
+    .best-title {
+        margin-bottom: 33px;
+    }
+    
+    .best-text {
+        margin-bottom: 40px;
+    }
+    
+    .best-text2 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .best-wrapper {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 500px) {
+    .best {
+        padding-bottom: 49px;
+    }
+    
+    .best-title {
+        font-size: 22px;
+        margin-bottom: 34px;
+    }
+    
+    .best-text {
+        font-size: 13px;
+        margin-bottom: 34px;
+    }
+
+    .best-text2 {
+        font-size: 13px;
+        margin-bottom: 46px;
+    }
+
+    .best-top {
+        max-width: 306px;
+        height: 229px;
+        margin: 0 auto;
+        background-image: url("../images/best-bg-mobil.svg");
+        background-repeat: no-repeat;
+    }
+
+    .best-bottom {
+        margin-bottom: 66px;
+    }
+}

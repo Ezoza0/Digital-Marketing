@@ -1,0 +1,156 @@
+.our {
+    padding-top: 141px;
+    padding-bottom: 201px;
+}
+
+.our-top {
+    max-width: 497px;
+}
+
+.our-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 187.5%;
+    color: #222222;
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+.our-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187.5%;
+    color: #525252;
+    margin: 0;
+    margin-bottom: 71px;
+}
+
+.our-img-box {
+    max-width: 382px;
+    height: 223px;
+    border-radius: 20px;
+    margin-right: 27px;
+    background-image: url("../images/books.jpg");
+    background-repeat: no-repeat;
+}
+
+.our-img-box1 {
+    max-width: 382px;
+    height: 223px;
+    border-radius: 20px;
+    margin-right: 27px;
+    background-image: url("../images/works.jpg");
+    background-repeat: no-repeat;
+}
+
+.our-img-box2 {
+    max-width: 382px;
+    height: 223px;
+    border-radius: 20px;
+    background-image: url("../images/one-gril.jpg");
+    background-size: 382px 223px;
+    background-repeat: no-repeat;
+}
+
+.our-img-box3 {
+    max-width: 256px;
+    height: 223px;
+    border-radius: 20px;
+    margin-top: 33px;
+    margin-right: 27px;
+    background-image: url("../images/working-girl.jpg");
+    background-repeat: no-repeat;
+}
+
+.our-img-box4 {
+    max-width: 411px;
+    height: 223px;
+    border-radius: 20px;
+    margin-top: 33px;
+    margin-right: 27px;
+    background-image: url("../images/team.jpg");
+    background-repeat: no-repeat;
+}
+
+.our-img-box5 {
+    max-width: 479px;
+    height: 223px;
+    border-radius: 20px;
+    margin-top: 33px;
+    background-image: url("../images/freinds.jpg");
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 992px) {
+    .our-img-box2 {
+        margin-top: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .our {
+        padding-bottom: 103px;
+    }
+    .our-img-box {
+        margin-right: 0;
+    }
+    .our-img-box1 {
+        margin-top: 28px;
+        margin-right: 0;
+    }
+
+    .our-img-box2 {
+        margin-right: 0;
+    }
+
+    .our-img-box3 {
+        display: none;
+    }
+
+    .our-img-box4 {
+        display: none;
+    }    
+
+    .our-box-last {
+        max-width: 382px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .our-img-box {
+        max-width: 306px;
+        height: 185px;
+        margin: 0 auto;
+        margin-top: 28px;
+        background-image: url("../images/books-mobile.jpg");
+        background-repeat: no-repeat;
+    }
+
+    .our-img-box1 {
+        max-width: 306px;
+        height: 185px;
+        margin: 0 auto;
+        margin-top: 28px;
+        background-image: url("../images/work-team-mobile.jpg");
+        background-repeat: no-repeat;
+    }
+
+    .our-img-box2 {
+        max-width: 306px;
+        height: 150px;
+        margin: 0 auto;
+        margin-top: 28px;
+        background-image: url("../images/two-girl-mobile.jpg");
+        background-size: 306px 150px;
+        background-repeat: no-repeat;
+    }
+
+    .our-img-box5 {
+        max-width: 306px;
+        height: 200px;
+        margin: 0 auto;
+        margin-top: 28px;
+        background-image: url("../images/work-girl-mobile.jpg");
+        background-repeat: no-repeat;
+    }
+}

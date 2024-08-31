@@ -1,0 +1,162 @@
+.stay {
+    padding-bottom: 148px;
+}
+
+.saty-top {
+    max-width: 545px;
+    margin-left: 71px;
+}
+
+.stay-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 187.5%;
+    color: #222222;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.stay-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187.5%;
+    color: #525252;
+    margin: 0;
+    margin-bottom: 74px;
+}
+
+.stay-bottom {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-left: 56px;
+    background: #1B1B1B;
+    border-radius: 15px;
+}
+
+.stay-start {
+    max-width: 636px;
+}
+
+.stay-start-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.stay-start-text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.stay-form {
+    width: 385px !important;
+    height: 48px !important;
+    margin-left: auto;
+}
+
+.stay-input {
+    height: 48px !important;
+    background: #FFFFFF;
+    border-radius: 8px !important;
+    padding: 14px 20px;
+    padding-right: 115px;
+}
+
+.stay-input::placeholder {
+    font-weight: 300 ;
+    font-size: 13px;
+    line-height: 20px ;
+    color: #898989;
+}
+
+.stay-btn {
+    position: absolute;
+    top: calc(50% - 18px);
+    left: calc(50% + 84px);
+    z-index: 11;
+    width: 105px;
+    height: 37px;
+    background: #DC7000;
+    border-radius: 8px !important;
+    padding: 8px 0;
+    padding-right: 13px;
+    padding-left: 22px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media (max-width:992px) {
+    .saty-top {
+        margin-left: 0;
+    }
+    
+    .stay-text {
+        margin-bottom: 41px;
+    }
+    
+    .stay-form {
+        margin: 0 auto;
+        margin-top: 43px;
+    }
+}
+
+@media (max-width: 540px) {
+    .stay-form {
+        width: 275px !important;
+    }
+    
+    .stay-btn {
+        left: calc(50% + 30px);
+    }
+}
+
+@media (max-width: 375px) {
+    .stay-bottom {
+        max-width: 319px;
+        padding-top: 30px;
+        padding-right: 21px;
+        padding-bottom: 23px;
+        padding-left: 21px;
+    }
+    
+    .stay-title {
+        font-size: 20px;
+        margin-bottom: 13px;
+    }
+    
+    .stay-text {
+        font-size: 12px;
+    }
+    
+    .stay-start-text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .stay-form {
+        width: 245px !important;
+    }
+    
+    .stay-input {
+        &::placeholder {
+            font-size: 10px;
+        }
+    }
+
+    .stay-btn {
+        left: calc(50% + 15px);
+    }
+}

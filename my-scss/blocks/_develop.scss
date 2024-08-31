@@ -1,0 +1,246 @@
+.develop {
+    padding-top: 165px;
+    padding-bottom: 132px;
+}
+
+.develop-top {
+    max-width: 826px;
+    margin: 0 auto;
+}
+
+.develop-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 187.5%;
+    color: #222222;
+}
+
+.develop-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187.5%;
+    color: #525252;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+.develop-item {
+    width: 220px;
+    cursor: pointer;
+    margin-right: 100px;
+    margin-bottom: 64px;
+}
+
+.develop-item:nth-child(1) {
+    &::before {
+        content: "";
+        display: block;
+        width: 65px;
+        height: 65px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        background-image: url("../images/icons/mobil.svg");
+    }
+    
+    &::after {
+        content: "";
+        display: block; 
+        width: 21px;
+        height: 21px;
+        margin: 0 auto;
+        background-image: url("../images/icons/right-icon.svg");
+        background-repeat: no-repeat;
+        margin-top: 24px;
+    }
+}
+
+.develop-item:nth-child(2) {
+    &::before {
+        content: "";
+        display: block;
+        width: 65px;
+        height: 65px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        background-image: url("../images/icons/PC.svg");
+    }
+    
+    &::after {
+        content: "";
+        display: block; 
+        width: 21px;
+        height: 21px;
+        margin: 0 auto;
+        background-image: url("../images/icons/right-icon.svg");
+        background-repeat: no-repeat;
+        margin-top: 24px;
+    }
+}
+
+.develop-item:nth-child(3) {
+    &::before {
+        content: "";
+        display: block;
+        width: 65px;
+        height: 65px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        background-image: url("../images/icons/ps4.svg");
+    }
+    
+    &::after {
+        content: "";
+        display: block; 
+        width: 21px;
+        height: 21px;
+        margin: 0 auto;
+        background-image: url("../images/icons/right-icon.svg");
+        background-repeat: no-repeat;
+        margin-top: 24px;
+    }
+}
+
+.develop-item:nth-child(4) {
+    margin-right: 0;
+    &::before {
+        content: "";
+        display: block;
+        width: 65px;
+        height: 65px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        background-image: url("../images/icons/vr.svg");
+    }
+    
+    &::after {
+        content: "";
+        display: block; 
+        width: 21px;
+        height: 21px;
+        margin: 0 auto;
+        background-image: url("../images/icons/right-icon.svg");
+        background-repeat: no-repeat;
+        margin-top: 24px;
+    }
+}
+
+.develop-item:nth-child(5) {
+    margin-bottom: 0;
+    &::before {
+        content: "";
+        display: block;
+        width: 65px;
+        height: 65px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        background-image: url("../images/icons/ar.svg");
+    }
+    
+    &::after {
+        content: "";
+        display: block; 
+        width: 21px;
+        height: 21px;
+        margin: 0 auto;
+        background-image: url("../images/icons/right-icon.svg");
+        background-repeat: no-repeat;
+        margin-top: 24px;
+    }
+}
+
+.develop-item:nth-child(6) {
+    margin: 0;
+    &::before {
+        content: "";
+        display: block;
+        width: 65px;
+        height: 65px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        background-image: url("../images/icons/3D.svg");
+    }
+    
+    &::after {
+        content: "";
+        display: block; 
+        width: 21px;
+        height: 21px;
+        margin: 0 auto;
+        background-image: url("../images/icons/right-icon.svg");
+        background-repeat: no-repeat;
+        margin-top: 24px;
+    }
+}
+
+.develop-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187.5%;
+    text-align: center;
+    color: #000000;
+}
+
+@media (max-width: 1219px) {
+    .develop-item:nth-child(3) {
+        margin-right: 0;
+    }
+    
+    .develop-item:nth-child(4) {
+        margin-right: 100px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .develop-item:nth-child(2) {
+        margin-right: 0;
+    }
+    
+    .develop-item:nth-child(3) {
+        margin-right: 100px;
+    }
+    
+    .develop-item:nth-child(4) {
+        margin-right: 0;
+        margin-bottom: 64px;
+    }
+    
+}
+
+@media (max-width: 580px) {
+    .develop {
+        padding-bottom: 108px;
+    }
+    
+    .develop-list {
+        margin-bottom: 0;
+    }
+    
+    .develop-title {
+        font-size: 20px;
+    }
+    
+    .develop-text {
+        font-size: 12px;
+    }
+    
+    .develop-item:nth-child(1) {
+        margin-right: 0;
+    }
+    .develop-item:nth-child(3) {
+        margin-right: 0;
+    }
+    .develop-item:nth-child(5) {
+        display: none;
+    }
+    
+    .develop-item:nth-child(6) {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .develop {
+        padding-top: 101px;
+    }
+}
